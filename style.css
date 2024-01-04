@@ -1,0 +1,111 @@
+html, body, div, span,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+
+  ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  } 
+
+.container {width: 1200px;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+@media screen and (min-width: 768px) {
+    .w25 { width: 25%;}
+    .w33 { width: 33.3%;}
+    .w40 { width: 40%;}
+    .w50 { width: 50%;}
+    .w60 { width: 60%;}
+    .w30 { width: 30%;}
+    .w70 { width: 70%;}
+    .container { width: 1200px; margin: 0 auto;}
+    .left { float: left;}
+    .right { float: right;}
+    .clear { clear: both;}
+}
+
+.header .top-header {
+    padding: 10px 10px;
+    border-bottom: 1px solid #7c7c7c;
+    background-color: #fff;
+}
+
+.header .top-header a, span {
+    color: #1c1c1c;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'SVN-Gotham';
+    font-weight: 500;
+}
+
+.header a:hover {
+    color: #916841;
+}
+
+.text {
+    padding: 66px 0;
+}
+.text a {
+    font-weight: 700 !important;
+}
+
+.logo img {
+    width: 80%;
+    margin: 10px 15px 0px 15px;
+}
+
+.site-nav-item {
+    padding: 0 15px;
+}
+
+.site-item {
+    padding: 66px 0;
+}
+
+.nav {
+    padding-top: 10px;
+}
+
+.nav-item {
+    float: left;
+    width: 20%;
+    text-align: center;
+
+}
+
+.bot-header a {
+    color: #1c1c1c;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'SVN-Gotham';
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.fa {
+    font-size: 14px;
+}
+.nav-item-drop li {
+    padding: 5px 45px;
+    text-align: left;
+}
+
+.nav-item:hover .menu-drop {
+    display: block;
+}
+
+.menu-drop {
+    display: none;
+    padding: 10px 0;
+}
